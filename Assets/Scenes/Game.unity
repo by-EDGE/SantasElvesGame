@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 912a48c5c4f174444a430b777ef3e4ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelSettings: {fileID: 0}
+  panelSettings: {fileID: 427930448}
 --- !u!4 &263236327
 Transform:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 427930451}
   - component: {fileID: 427930450}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PanelSettings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 598146548}
   - component: {fileID: 598146547}
   m_Layer: 5
-  m_Name: Button (Legacy) (2)
+  m_Name: Button Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 991219544}
   - component: {fileID: 991219543}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: Button Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 1166516406}
   - component: {fileID: 1166516405}
   m_Layer: 5
-  m_Name: Button (Legacy) (3)
+  m_Name: Button Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1132,7 +1132,7 @@ GameObject:
   - component: {fileID: 1462651684}
   - component: {fileID: 1462651683}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Button Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1422,7 +1422,7 @@ GameObject:
   - component: {fileID: 1859364588}
   - component: {fileID: 1859364587}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PanelGameMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

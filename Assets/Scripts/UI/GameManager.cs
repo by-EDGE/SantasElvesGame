@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
     public GameObject panelSettings;
     private void Start()
     {
-        panelSettings.SetActive(false);
+        if (panelSettings != null)
+            panelSettings.SetActive(false);
     }
 
     public void Play()
@@ -36,5 +37,6 @@ public class GameManager : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+        Debug.Log("Exit");
     }
 }
